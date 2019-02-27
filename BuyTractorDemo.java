@@ -40,8 +40,8 @@ class Company{
 	String add;
 	
 	public void ExplainModels() {
-		String name="Old is Gold";
-		String mil="Chek yourself";
+		String name="S-735";
+		String mil="Good Efficiency";
 		int rating=5;
 		System.out.println("Make & Model: "+name+"\nMileage: "+mil+"\nRating: "+rating);
 	}
@@ -67,7 +67,7 @@ class Company{
 	void DeliverStatus() {
 		if(CheckPayment())
 			System.out.println("\nOrder Accepted & Will be delivered to you by 30'Feb-2019");
-		else System.out.println("Please go to another Company");
+		else System.out.println("Sorry, Your Payment Condition was not satisfying to Company & Contact Sales Manager");
 	}
 		
 }
@@ -75,18 +75,18 @@ public class BuyTractorDemo {
 
 	public static void main(String[] args) {
 		Custo Cs=new Custo();
-		String nam=Cs.name="Aparichitudu";
+		String nam=Cs.name="New Buyer";
 		long pno=Cs.mno=108100104;
-		String add=Cs.Add="Beside Ramanujan's house";
+		String add=Cs.Add="Indiranagar, Bangalore";
 		System.out.println("Customer Details:");
 		System.out.println("Name: "+nam);
 		System.out.println("Mobile No: "+pno);
 		System.out.println("Address: "+add);
 		Company Cy=new Company();
-		String cn=Cy.make="So&So";
-		String cm=Cy.model="Different";
-		String cw=Cy.Warranty="War & Tea";
-		String ca=Cy.add="Search";
+		String cn=Cy.make="SWARAJ";
+		String cm=Cy.model="S-735";
+		String cw=Cy.Warranty="02 Years";
+		String ca=Cy.add="Yelhanka, Bangalore";
 		System.out.println("\nCompany Details: ");
 		System.out.println("Name: "+cn);
 		System.out.println("Model: "+cm);
