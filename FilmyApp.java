@@ -12,8 +12,8 @@ public class FilmyApp {
 		System.out.println("Enter Password: ");
 		String Pawd = S.nextLine();
 		MovieAudian MrS = new MovieAudian(Useid, Pawd);
-		MrS.AName = "Sandeep";
-		MrS.mno = 9849395757L;
+		MrS.AName = "Audian#1";
+		MrS.mno = 1234565757L;
 		MrS.MailId = "mycinema.com";
 		MrS.Userid = Useid;
 		MrS.Pw = Pawd;
